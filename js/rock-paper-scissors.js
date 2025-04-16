@@ -1,21 +1,26 @@
 // Start round 1 of game.
 
   // Computer randomly returns "rock", "paper" or "scissors".
-  function getComputerChoice(choice) {
+  function getComputerChoice() {
     var options = ["Rock", "Paper", "Scissors"];
-    var choice = options[Math.floor(Math.random() * options.length)]
-    return (choice);
+    var computerChoice = options[Math.floor(Math.random() * options.length)]
+    return (computerChoice);
   }
 
-  // Record computer's score.
+  // *** STILL TO DO *** Record computer's score.
 
   // Computer prompts user to enter "rock", "paper" or "scissors".
-
+  function getHumanChoice() {
+    var humanChoice = prompt("Enter 'Rock', 'Paper' or 'Scissors':")
     // User enters "rock", "paper" or "scissors".
+    // *** STILL TO DO *** No validification of input required.
+    // *** STILL TO DO *** Input should be case-insensitive.
+    // Return user input.
+    return (humanChoice);
+  }
 
-       // No validification of input required.
+  //console.log(humanChoice());
 
-       // Input should be case-insensitive.
 
   // Record player's score.
 
