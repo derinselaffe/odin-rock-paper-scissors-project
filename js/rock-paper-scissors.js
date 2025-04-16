@@ -1,3 +1,7 @@
+// Global variables for scores.
+let computerScore = 0;
+let humanScore = 0;
+
 // Start round 1 of game.
 
   // Computer randomly returns "rock", "paper" or "scissors".
